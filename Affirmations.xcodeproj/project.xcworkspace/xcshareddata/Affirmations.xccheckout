@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C116731-3FEA-4B04-8032-91A30A1E3BE9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Affirmations</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E05C9011420EC924B16302885DCD19362B93786E</key>
+		<string>https://github.com/nahughes2/Affirmations-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Affirmations.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E05C9011420EC924B16302885DCD19362B93786E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nahughes2/Affirmations-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E05C9011420EC924B16302885DCD19362B93786E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E05C9011420EC924B16302885DCD19362B93786E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Affirmations</string>
+		</dict>
+	</array>
+</dict>
+</plist>

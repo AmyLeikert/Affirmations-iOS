@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Hughes, Nate. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "NewsTableViewController.h"
 
-@interface FirstViewController ()
+@interface NewsTableViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation NewsTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

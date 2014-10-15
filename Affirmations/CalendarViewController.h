@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SecondViewController.h
 //  Affirmations
 //
 //  Created by Hughes, Nate on 10/14/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface CalendarViewController : UIViewController
 
 
 @end

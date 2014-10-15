@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42800AAB19EEE6EF00F6462A /* NewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42800AAA19EEE6EF00F6462A /* NewsItem.m */; };
+		42800AAE19EEED1A00F6462A /* CalendarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 42800AAD19EEED1A00F6462A /* CalendarItem.m */; };
 		42B2053F19ED7EC30097C6B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2053E19ED7EC30097C6B5 /* main.m */; };
 		42B2054219ED7EC30097C6B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2054119ED7EC30097C6B5 /* AppDelegate.m */; };
-		42B2054519ED7EC30097C6B5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2054419ED7EC30097C6B5 /* FirstViewController.m */; };
-		42B2054819ED7EC30097C6B5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2054719ED7EC30097C6B5 /* SecondViewController.m */; };
+		42B2054519ED7EC30097C6B5 /* NewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2054419ED7EC30097C6B5 /* NewsTableViewController.m */; };
+		42B2054819ED7EC30097C6B5 /* CalendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B2054719ED7EC30097C6B5 /* CalendarViewController.m */; };
 		42B2054B19ED7EC30097C6B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42B2054919ED7EC30097C6B5 /* Main.storyboard */; };
 		42B2054D19ED7EC30097C6B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42B2054C19ED7EC30097C6B5 /* Images.xcassets */; };
 		42B2055019ED7EC30097C6B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42B2054E19ED7EC30097C6B5 /* LaunchScreen.xib */; };
@@ -28,15 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42800AA919EEE5ED00F6462A /* NewsItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsItem.h; sourceTree = "<group>"; };
+		42800AAA19EEE6EF00F6462A /* NewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsItem.m; sourceTree = "<group>"; };
+		42800AAC19EEECF200F6462A /* CalendarItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarItem.h; sourceTree = "<group>"; };
+		42800AAD19EEED1A00F6462A /* CalendarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarItem.m; sourceTree = "<group>"; };
 		42B2053919ED7EC30097C6B5 /* Affirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Affirmations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42B2053D19ED7EC30097C6B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42B2053E19ED7EC30097C6B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42B2054019ED7EC30097C6B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42B2054119ED7EC30097C6B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42B2054319ED7EC30097C6B5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		42B2054419ED7EC30097C6B5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		42B2054619ED7EC30097C6B5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		42B2054719ED7EC30097C6B5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		42B2054319ED7EC30097C6B5 /* NewsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsTableViewController.h; sourceTree = "<group>"; };
+		42B2054419ED7EC30097C6B5 /* NewsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewController.m; sourceTree = "<group>"; };
+		42B2054619ED7EC30097C6B5 /* CalendarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalendarViewController.h; sourceTree = "<group>"; };
+		42B2054719ED7EC30097C6B5 /* CalendarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarViewController.m; sourceTree = "<group>"; };
 		42B2054A19ED7EC30097C6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42B2054C19ED7EC30097C6B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		42B2054F19ED7EC30097C6B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -63,6 +69,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42800AAF19EEED7A00F6462A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				42B2054319ED7EC30097C6B5 /* NewsTableViewController.h */,
+				42B2054419ED7EC30097C6B5 /* NewsTableViewController.m */,
+				42B2054619ED7EC30097C6B5 /* CalendarViewController.h */,
+				42B2054719ED7EC30097C6B5 /* CalendarViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		42800AB019EEED9A00F6462A /* Data Objects */ = {
+			isa = PBXGroup;
+			children = (
+				42800AAC19EEECF200F6462A /* CalendarItem.h */,
+				42800AAD19EEED1A00F6462A /* CalendarItem.m */,
+				42800AA919EEE5ED00F6462A /* NewsItem.h */,
+				42800AAA19EEE6EF00F6462A /* NewsItem.m */,
+			);
+			name = "Data Objects";
+			sourceTree = "<group>";
+		};
 		42B2053019ED7EC30097C6B5 = {
 			isa = PBXGroup;
 			children = (
@@ -84,12 +112,10 @@
 		42B2053B19ED7EC30097C6B5 /* Affirmations */ = {
 			isa = PBXGroup;
 			children = (
+				42800AB019EEED9A00F6462A /* Data Objects */,
+				42800AAF19EEED7A00F6462A /* Controllers */,
 				42B2054019ED7EC30097C6B5 /* AppDelegate.h */,
 				42B2054119ED7EC30097C6B5 /* AppDelegate.m */,
-				42B2054319ED7EC30097C6B5 /* FirstViewController.h */,
-				42B2054419ED7EC30097C6B5 /* FirstViewController.m */,
-				42B2054619ED7EC30097C6B5 /* SecondViewController.h */,
-				42B2054719ED7EC30097C6B5 /* SecondViewController.m */,
 				42B2054919ED7EC30097C6B5 /* Main.storyboard */,
 				42B2054C19ED7EC30097C6B5 /* Images.xcassets */,
 				42B2054E19ED7EC30097C6B5 /* LaunchScreen.xib */,
@@ -224,9 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42B2054819ED7EC30097C6B5 /* SecondViewController.m in Sources */,
+				42B2054819ED7EC30097C6B5 /* CalendarViewController.m in Sources */,
 				42B2054219ED7EC30097C6B5 /* AppDelegate.m in Sources */,
-				42B2054519ED7EC30097C6B5 /* FirstViewController.m in Sources */,
+				42B2054519ED7EC30097C6B5 /* NewsTableViewController.m in Sources */,
+				42800AAB19EEE6EF00F6462A /* NewsItem.m in Sources */,
+				42800AAE19EEED1A00F6462A /* CalendarItem.m in Sources */,
 				42B2053F19ED7EC30097C6B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +452,7 @@
 				42B2056119ED7EC30097C6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42B2056219ED7EC30097C6B5 /* Build configuration list for PBXNativeTarget "AffirmationsTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +461,7 @@
 				42B2056419ED7EC30097C6B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

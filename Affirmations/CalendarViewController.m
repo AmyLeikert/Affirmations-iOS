@@ -6,13 +6,13 @@
 //  Copyright (c) 2014 Hughes, Nate. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "CalendarViewController.h"
 
-@interface SecondViewController ()
+@interface CalendarViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation CalendarViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

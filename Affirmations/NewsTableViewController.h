@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FirstViewController.h
 //  Affirmations
 //
 //  Created by Hughes, Nate on 10/14/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface NewsTableViewController : UIViewController
 
 
 @end
