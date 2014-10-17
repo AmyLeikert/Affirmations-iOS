@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NewsTableViewController : UIViewController
+@interface NewsTableViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
 
+@property (nonatomic, strong) IBOutlet UITableView *newsTable;
 
 @end
 
